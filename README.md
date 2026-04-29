@@ -28,7 +28,7 @@ A lightweight AI-powered tool that evaluates student answers against subject-spe
 
 ## 📖 About the Project
 
-The **Mini Answer Evaluator** is designed to help students and teachers get instant, structured feedback on exam-style answers. It uses keyword-based rubric retrieval to match the question to the right subject rubric, then sends the question, answer, and rubric to a Groq LLM which returns marks, feedback, and justification — all as structured JSON.
+The **Mini Answer Evaluator** is designed to help students and teachers get instant, structured feedback on exam-style answers. It uses keyword-based rubric retrieval to match the question to the right subject rubric, then sends the question, answer, and rubric to a Groq LLM which returns marks, feedback, and justification - all as structured JSON.
 
 An optional **comparison mode** lets you see the difference between rubric-guided scoring and holistic (no-rubric) scoring side by side.
 
