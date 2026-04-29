@@ -1,6 +1,6 @@
 # 🎓 Mini Answer Evaluator
 
-> **Rubric-based student answer evaluation — powered by Groq LLM**
+> **Rubric-based student answer evaluation - powered by Groq LLM**
 
 A lightweight AI-powered tool that evaluates student answers against subject-specific rubrics. Enter any exam question and a student's answer - the system auto-selects the best rubric, scores the answer out of 5, and provides structured feedback. Built with Groq's `llama-3.3-70b-versatile` and a clean Gradio web UI.
 
