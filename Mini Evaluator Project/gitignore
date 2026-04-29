@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────
+#  .gitignore — Mini Answer Evaluator
+# ─────────────────────────────────────────
+
+# ── Secrets ───────────────────────────────
+.env
+*.env
+
+# ── Gradio (auto-generated on launch) ─────
+.gradio/
+flagged/
+
+# ── Jupyter ───────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── OS ────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────
+*.log
