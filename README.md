@@ -1,6 +1,6 @@
 # 🎓 Mini Answer Evaluator
 
-> **Rubric-based student answer evaluation — powered by Groq LLM**
+> **Rubric-based student answer evaluation - powered by Groq LLM**
 
 A lightweight AI-powered tool that evaluates student answers against subject-specific rubrics. Enter any exam question and a student's answer - the system auto-selects the best rubric, scores the answer out of 5, and provides structured feedback. Built with Groq's `llama-3.3-70b-versatile` and a clean Gradio web UI.
 
@@ -37,7 +37,7 @@ An optional **comparison mode** lets you see the difference between rubric-guide
 
 ## 🎬 Demo
 
-### Physics — 2nd Law of Motion
+### Physics - 2nd Law of Motion
 
 **Question Input & Rubric Matching:**
 
@@ -49,13 +49,13 @@ An optional **comparison mode** lets you see the difference between rubric-guide
 
 ---
 
-### Mathematics — Matrix
+### Mathematics - Matrix
 
 **Question Input & Rubric Matching:**
 
 ![Matrix Question with Answer](Mini%20Evaluator%20Project/Matrix%20in%20Mathematics%20-%20Question%20with%20Answer.png)
 
-**Evaluation Result — With & Without Rubric:**
+**Evaluation Result - With & Without Rubric:**
 
 ![Matrix With and Without Rubrics Answer Evaluation](Mini%20Evaluator%20Project/Matrix%20in%20Mathematics%20-%20With%20and%20without%20Rubrics%20Answer%20Evaluation.png)
 
