@@ -29,9 +29,9 @@ A lightweight AI-powered tool that evaluates student answers against subject-spe
 
 ## 📖 About the Project
 
-The **Mini Answer Evaluator** is designed to help students and teachers get instant, structured feedback on exam-style answers. It uses keyword-based rubric retrieval to match the question to the right subject rubric, then sends the question, answer, and rubric to a Groq LLM which returns marks, feedback, and justification — all as structured JSON.
+The **Mini Answer Evaluator** is designed to help students and teachers get instant, structured feedback on exam-style answers. It uses keyword-based rubric retrieval to match the question to the right subject rubric, then sends the question, answer, and rubric to a Groq LLM which returns marks, feedback, and justification - all as structured JSON.
 
-An optional **comparison mode** lets you see the difference between rubric-guided scoring and holistic (no-rubric) scoring side by side.
+An optional **comparison mode** lets you see the difference between rubric-guided scoring and holistic(no-rubric) scoring side by side.
 
 ---
 
@@ -76,12 +76,12 @@ An optional **comparison mode** lets you see the difference between rubric-guide
 
 ## ✨ Features
 
-- 🔍 **Automatic Rubric Retrieval** — keyword matching selects the right rubric from 6 subjects; falls back to a generic rubric for unrecognised topics.
-- 🤖 **LLM-Powered Grading** — Groq's Llama 3.3 70B returns structured JSON: marks awarded, max marks, feedback, and justification.
-- 📊 **Comparison Mode** — compare rubric-guided scoring vs. holistic (no-rubric) scoring side by side.
-- 🖥️ **Gradio Web UI** — clean interface with pre-loaded example questions and a visual score bar.
-- 💻 **Interactive CLI Mode** — run directly in the notebook terminal without opening a browser.
-- ⚡ **Fast Inference** — Groq's LPU hardware delivers near-instant responses.
+- 🔍 **Automatic Rubric Retrieval** - keyword matching selects the right rubric from 6 subjects; falls back to a generic rubric for unrecognised topics.
+- 🤖 **LLM-Powered Grading** - Groq's Llama 3.3 70B returns structured JSON: marks awarded, max marks, feedback, and justification.
+- 📊 **Comparison Mode** - compare rubric-guided scoring vs. holistic (no-rubric) scoring side by side.
+- 🖥️ **Gradio Web UI** - clean interface with pre-loaded example questions and a visual score bar.
+- 💻 **Interactive CLI Mode** - run directly in the notebook terminal without opening a browser.
+- ⚡ **Fast Inference** - Groq's LPU hardware delivers near-instant responses.
 
 ---
 
@@ -212,7 +212,7 @@ GROQ_API_KEY=gsk_your_actual_key_here
 
 ## ▶️ Running the Application
 
-### Option 1 — Jupyter Notebook
+### Option 1 - Jupyter Notebook
 
 ```bash
 jupyter notebook "Mini Answer Evaluator Project .ipynb"
@@ -220,13 +220,13 @@ jupyter notebook "Mini Answer Evaluator Project .ipynb"
 
 Run all cells top to bottom. The Gradio app launches automatically in the last cell.
 
-### Option 2 — VS Code
+### Option 2 - VS Code
 
 1. Open the project folder in VS Code
 2. Click on the `.ipynb` file
 3. Click **"Run All"** at the top
 
-### Option 3 — Google Colab
+### Option 3 - Google Colab
 
 1. Upload the `.ipynb` to [colab.research.google.com](https://colab.research.google.com)
 2. Add your API key by running:
@@ -309,38 +309,38 @@ The current version is a working MVP. Here are meaningful improvements that can 
 | Single rubric matched | Support **multi-subject questions** that span topics |
 
 ### 📊 Better Evaluation
-- **Marks out of custom values** — currently fixed at 5; allow teachers to set 2, 3, 10, etc.
-- **Part-wise evaluation** — break multi-part questions (a, b, c) into individual scored sections
-- **Confidence score** — have the LLM return how confident it is in the marks it awarded
-- **Model answer support** — let teachers provide a reference answer for more accurate grading
+- **Marks out of custom values** - currently fixed at 5; allow teachers to set 2, 3, 10, etc.
+- **Part-wise evaluation** - break multi-part questions (a, b, c) into individual scored sections
+- **Confidence score** - have the LLM return how confident it is in the marks it awarded
+- **Model answer support** - let teachers provide a reference answer for more accurate grading
 
 ### 🖥️ UI & UX Enhancements
-- **Batch evaluation** — upload a CSV of questions + answers and evaluate all at once
-- **Export results** — download evaluation results as PDF or Excel report
-- **History tab** — save and review past evaluations within the session
-- **Dark mode** — Gradio theme toggle for better readability
+- **Batch evaluation** - upload a CSV of questions + answers and evaluate all at once
+- **Export results** - download evaluation results as PDF or Excel report
+- **History tab** - save and review past evaluations within the session
+- **Dark mode** - Gradio theme toggle for better readability
 
 ### 🔐 Security & Deployment
-- **User authentication** — login system so teachers can have private sessions
-- **Deploy to Hugging Face Spaces** — make it publicly accessible with one click
-- **Deploy to Streamlit Cloud** — alternative free hosting option
-- **Rate limiting** — prevent API key abuse in shared deployments
+- **User authentication** - login system so teachers can have private sessions
+- **Deploy to Hugging Face Spaces** - make it publicly accessible with one click
+- **Deploy to Streamlit Cloud** - alternative free hosting option
+- **Rate limiting** - prevent API key abuse in shared deployments
 
 ### 🗄️ Data & Storage
-- **Database integration** — store evaluations in SQLite or PostgreSQL for analytics
-- **Student performance tracking** — track a student's scores over multiple attempts
-- **Analytics dashboard** — visualise class performance across subjects
+- **Database integration** - store evaluations in SQLite or PostgreSQL for analytics
+- **Student performance tracking** - track a student's scores over multiple attempts
+- **Analytics dashboard** - visualise class performance across subjects
 
 ### 🤖 Model & Performance
-- **Support multiple LLM providers** — add OpenAI, Gemini, or Ollama (local) as alternatives to Groq
-- **Fine-tuned model** — train a smaller model specifically on exam answer evaluation
-- **Caching** — cache identical question+answer pairs to reduce API calls and costs
-- **Streaming responses** — show feedback word-by-word as it generates for faster perceived speed
+- **Support multiple LLM providers** - add OpenAI, Gemini, or Ollama (local) as alternatives to Groq
+- **Fine-tuned model** - train a smaller model specifically on exam answer evaluation
+- **Caching** - cache identical question+answer pairs to reduce API calls and costs
+- **Streaming responses** - show feedback word-by-word as it generates for faster perceived speed
 
 ### 📱 Platform Expansion
-- **REST API** — expose evaluation as an API endpoint so it can be integrated into school portals
-- **Mobile-friendly UI** — responsive design for tablet/phone use in classrooms
-- **WhatsApp / Telegram bot** — students submit answers via chat and get instant feedback
+- **REST API** - expose evaluation as an API endpoint so it can be integrated into school portals
+- **Mobile-friendly UI** - responsive design for tablet/phone use in classrooms
+- **WhatsApp / Telegram bot** - students submit answers via chat and get instant feedback
 
 ---
 
